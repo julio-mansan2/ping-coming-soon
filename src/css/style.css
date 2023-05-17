@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    min-height: 100vh;
+    padding: 5%;
+}
+
+.intro {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.875rem;
+}
+
+.logo {
+    margin-bottom: 2.5rem;
+}
+
+.heading {
+    font-size: 2.5rem;
+    color: var(--gray);
+    font-weight: 300;
+    margin-bottom: 0.625rem;
+}
+
+.heading span {
+    color: var(--very-dark-blue);
+    font-weight: 700;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    color: var(--very-dark-blue);
+}
+
+.container form {
+    display: flex;
+    justify-content: center;
+    gap: 0.625rem;
+    margin-bottom: 3.125rem;
+}
+
+.container .illustration {
+    width: 100%;
+    padding: 0 15%;
+    margin-bottom: 2.5rem;
+}
+
+#input-email {
+    border: 1px solid var(--blue);
+    color: var(--very-dark-blue);
+    padding: 0.9375rem;
+    border-radius: 100px;
+    font-family: 'Libre Franklin', sans-serif;
+    width: 25%;
+}
+
+#submit {
+    font-family: 'Libre Franklin', sans-serif;
+    background: var(--blue);
+    padding: 0.625rem 1.875rem;
+    border-radius: 6.25rem;
+    color: var(--pale-blue);
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.form {
+    position: relative;
+}
+
+.error {
+    color: var(--red);
+    font-size: 0.9rem;
+    justify-self: center;
+    position: absolute;
+    left: 35%;
+    top: 100%;
+}
+
+#submit:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5625rem;
+}
+
+.footer .social-medias {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.footer .social-medias a {
+    font-size: 1.2rem;
+    color: var(--blue);
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.footer .social-medias a:hover {
+    background: var(--blue);
+    color: var(--pale-blue);
+}
+
+.footer span {
+    color: var(--gray);
+    font-size: 0.9rem;
+}

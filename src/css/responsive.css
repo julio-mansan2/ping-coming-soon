@@ -1,0 +1,39 @@
+@media (max-width: 500px) {
+    body {
+        padding: 20% 5%;
+    }
+    
+    .logo {
+        margin-bottom: 2.5rem;
+    }
+    
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .intro .subtitle {
+        font-size: 1rem;
+    }
+
+    .container form {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .error {
+        top: 40%;
+        left: 5%;
+    }
+
+    #input-email {
+        width: 100%;
+    }
+
+    #submit {
+        padding: 0.9375rem;
+    }
+
+    .container .illustration {
+        padding: 0;
+    }
+}
